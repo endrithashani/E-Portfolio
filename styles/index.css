@@ -582,6 +582,15 @@ footer{
         margin-left: 20px;
     }
 }
+@media only screen and (max-width: 420px){
+    .quote p{
+        font-size: 9px;
+        height: 60px;
+    }
+    .quote span{
+        font-size: 11px;
+    }
+}
 @media only screen and (max-width: 330px){
     .upper-projects h1{
         font-size: 14px;
@@ -606,11 +615,11 @@ footer{
         font-size: 10px;
     }
     .quote p{
-        font-size: 5px;
+        font-size: 9px;
         height: 60px;
     }
     .quote span{
-        font-size: 10px;
+        font-size: 11px;
     }
     .about-content p{
         margin-right: 0;
