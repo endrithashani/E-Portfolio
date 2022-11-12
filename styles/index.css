@@ -499,7 +499,7 @@ footer{
         flex-wrap: wrap;
     }
     .intro h1{
-        font-size:20px;
+        font-size:24px;
     }
     .intro p{
         font-size:12px;
@@ -543,12 +543,18 @@ footer{
         margin-left: 0;
         width: 95%;
     }
+    .about-content p{
+        margin-left: 0;
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
     form h1{
-        font-size: 22px;
+        font-size: 25px;
         align-items: center;
     }
     input{
         width: 90%;
+        font-size: 16px
     }
 }
 @media only screen and (max-width: 670px){
