@@ -40,9 +40,6 @@
             <img src="images/image2.png" alt="intro image">
         </div>
     </div>
-    <div class="quote">
-        <p><span>“</span> If you think math is hard, try web development. <span>”</span></p>
-    </div>
     <div id="projects">
         <div class="upper-projects">
             <h1><span>#</span>Projects</h1>
@@ -145,17 +142,21 @@
             <h1><span>#</span>Contact</h1>
             <div class="line-contact"></div>
         </div>
-        <form>
+        <form id="form" onsubmit="return validateForm();" action="#form">
             <h1>Contact me &#128516;</h1>
             <br>
-            <input type="text" placeholder="Name" required>
+            <div id="form-text"></div>
+            <input type="text" placeholder="Name" id="name" onkeypress="validateForm()" >
             <br>
+            <div id="text-name"></div>
             <br>
-            <input type="email" placeholder="Email" required>
+            <input type="text" placeholder="Email" id="email" onkeypress="validateForm()" >
             <br>
+            <div id="text-email"></div>
             <br>
-            <input type="message" placeholder="Message" required>
+            <input type="message" placeholder="Message" id="message" onkeypress="validateForm()" >
             <br>
+            <div id="text-message"></div>
             <button id="send">Send</button>
         </form>
     </div>
