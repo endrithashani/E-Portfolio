@@ -342,6 +342,38 @@ footer{
     margin-bottom:15px;
     color:#ABB2BF;
 }
+.social-media img:hover{
+    box-shadow: 0;
+}
+.projects:hover{
+    box-shadow: 10px 10px  5px rgba(0,0,0,0.6);
+    -moz-box-shadow: 10px 10px  5px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 10px 10px  5px rgba(0,0,0,0.6);
+    -o-box-shadow: 10px 10px  5px rgba(0,0,0,0.6);
+    transition: ease-out 0.4s;
+}
+.container:hover{
+    box-shadow: 10px 10px  5px rgba(0,0,0,0.6);
+    -moz-box-shadow: 10px 10px  5px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 10px 10px  5px rgba(0,0,0,0.6);
+    -o-box-shadow: 10px 10px  5px rgba(0,0,0,0.6);
+    transition: ease-out 0.4s;
+}
+.lang:hover{
+    box-shadow: 10px 10px  5px rgba(21, 21, 21, 0.6);
+    -moz-box-shadow: 10px 10px  5px rgba(21, 21, 21, 0.6);
+    -webkit-box-shadow: 10px 10px  5px rgba(21, 21, 21, 0.6);
+    -o-box-shadow: 10px 10px  5px rgba(21, 21, 21, 0.6);
+    transition: ease-out 0.4s;
+}
+.social-media img:hover{
+    margin-bottom: 4px;
+    transition:ease-in-out 100ms;
+}
+.footer-content img:hover{
+    margin-bottom: 4px;
+    transition:ease-in-out 100ms;
+}
 @media only screen and (max-width: 1195px){
     .quote p{
         font-size:30px;
